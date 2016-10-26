@@ -1,0 +1,29 @@
+<Alloy>
+	<TabGroup>
+		<Tab title="Home" icon="Home.png">
+			<Window title="Online House Renting System">
+				<Label>I am Window 1</Label>
+			</Window>
+		</Tab>
+		<Tab title="By Price" icon="KS_nav_views.png">
+			<Window title="Online House Renting System">
+				<Label>I am Window 2</Label>
+			</Window>
+		</Tab>
+		<Tab title="By District" icon="KS_nav_views.png">
+			<Window title="Online House Renting System">
+				<Label>I am Window 2</Label>
+			</Window>
+		</Tab>
+		<Tab title="Map" icon="KS_nav_views.png">
+			<Window title="Online House Renting System">
+				<Label>I am Window 2</Label>
+			</Window>
+		</Tab>
+		<Tab title="My Account" icon="KS_nav_views.png">
+			<Window title="Online House Renting System">
+				<Label>I am Window 2</Label>
+			</Window>
+		</Tab>
+	</TabGroup>
+</Alloy>

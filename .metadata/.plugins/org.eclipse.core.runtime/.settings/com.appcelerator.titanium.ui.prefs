@@ -1,7 +1,7 @@
 =run
-LAST_LAUNCH_TIMESTAMP=1477474963410
+LAST_LAUNCH_TIMESTAMP=1477482535923
 eclipse.preferences.version=1
 phase2\:launchMode=run
 phase2\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.D6D61E58-76CE-445B-AEC6-7546B09EDDCD
-preference.show.console.onError=true
+preference.show.console.onError=false
 preference.studio.perspective.version=103

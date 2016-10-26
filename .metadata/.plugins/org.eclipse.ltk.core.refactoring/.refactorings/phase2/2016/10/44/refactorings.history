@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;phase2/app/assets/privateEstates.sqlite&apos; to &apos;OHRS.sqlite&apos;" description="Rename resource &apos;privateEstates.sqlite&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="app/assets/privateEstates.sqlite" name="OHRS.sqlite" stamp="1477481205542" updateReferences="true"/>
+</session>
