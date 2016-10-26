@@ -114,3 +114,21 @@ Caused by: org.yaml.snakeyaml.error.YAMLException: Invalid tag: !ruby/object:Rub
 
 !ENTRY com.aptana.git.core 4 0 2016-10-26 17:44:36.691
 !MESSAGE (Build 4.6.0.201605201934) [ERROR]  Errors occurred while grabbing changed file listings
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-26 17:50:01.374
+!MESSAGE (Build 4.6.0.201605201934) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-26 17:50:01.374
+!MESSAGE (Build 4.6.0.201605201934) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-26 17:51:13.623
+!MESSAGE (Build 4.6.0.201605201934) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-26 17:51:13.624
+!MESSAGE (Build 4.6.0.201605201934) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-26 17:56:27.133
+!MESSAGE (Build 4.6.0.201605201934) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-26 17:56:27.133
+!MESSAGE (Build 4.6.0.201605201934) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
