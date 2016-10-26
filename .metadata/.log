@@ -1,0 +1,116 @@
+!SESSION 2016-10-26 17:41:54.311 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/xdeveloper/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/xdeveloper/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-26 17:42:04.784
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-26 17:42:07.254
+!MESSAGE (Build 4.6.0.1455770180) [ERROR]  Unrecognized token 'A': was expecting ('true', 'false' or 'null')
+ at [Source: A new update (5.5.1) is available... Download with appc use 5.5.1
+{
+  "username": "hkbu.itcamp@gmail.com",
+  "org_name": "hkbu.itcamp@gmail.com",
+  "org_id": 100021863
+}; line: 1, column: 2]
+!STACK 0
+com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'A': was expecting ('true', 'false' or 'null')
+ at [Source: A new update (5.5.1) is available... Download with appc use 5.5.1
+{
+  "username": "hkbu.itcamp@gmail.com",
+  "org_name": "hkbu.itcamp@gmail.com",
+  "org_id": 100021863
+}; line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1486)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:518)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2300)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:1459)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:683)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:3600)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:3545)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:2134)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.isLoggedIn(NodeAppcCLI.java:523)
+	at com.appcelerator.titanium.core.user.TitaniumUserManager.hasSignedInUser(TitaniumUserManager.java:513)
+	at com.appcelerator.titanium.core.user.TitaniumUserManager.addUserListener(TitaniumUserManager.java:626)
+	at com.appcelerator.titanium.core.TitaniumCorePlugin$1.run(TitaniumCorePlugin.java:199)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.aptana.core 4 0 2016-10-26 17:42:08.224
+!MESSAGE (Build 4.6.0.1455770180) [ERROR]  null
+!STACK 0
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.UNIXProcess.waitFor(UNIXProcess.java:396)
+	at com.aptana.core.util.ProcessRunner.processData(ProcessRunner.java:381)
+	at com.aptana.core.util.ProcessRunner.processData(ProcessRunner.java:345)
+	at com.aptana.core.util.ProcessRunner.processResult(ProcessRunner.java:432)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.runCommand(NodeAppcCLI.java:238)
+	at com.appcelerator.titanium.rcp.handlers.TitaniumSplashHandler.verifyAppcWhoami(TitaniumSplashHandler.java:1218)
+	at com.appcelerator.titanium.rcp.handlers.TitaniumSplashHandler.access$4(TitaniumSplashHandler.java:1215)
+	at com.appcelerator.titanium.rcp.handlers.TitaniumSplashHandler$3.run(TitaniumSplashHandler.java:303)
+
+!ENTRY com.appcelerator.titanium.rcp 4 0 2016-10-26 17:42:08.226
+!MESSAGE (Build 4.6.0.1455770180) [ERROR]  Failed to check login status. Likely not logged in.
+
+!ENTRY com.aptana.scripting 4 0 2016-10-26 17:42:38.238
+!MESSAGE (Build 4.6.0.201605201934) [ERROR]  Failed to load bundle /Applications/Appcelerator Studio/plugins/com.appcelerator.titanium.core_3.1.2.1463766765/bundles/titanium_mobile.ruble
+!STACK 0
+Can't construct a java object for !ruby/object:Ruble::Bundle; exception=Invalid tag: !ruby/object:Ruble::Bundle
+ in "<reader>", line 1, column 5:
+    --- !ruby/object:Ruble::Bundle
+        ^
+
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.construct(Constructor.java:325)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:181)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:140)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:126)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:296)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:290)
+	at com.aptana.scripting.model.BundleCacher.load(BundleCacher.java:328)
+	at com.aptana.scripting.model.BundleCacher.load(BundleCacher.java:286)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.yaml.snakeyaml.error.YAMLException: Invalid tag: !ruby/object:Ruble::Bundle
+	at org.yaml.snakeyaml.nodes.Tag.getClassName(Tag.java:108)
+	at org.yaml.snakeyaml.constructor.Constructor.getClassForNode(Constructor.java:620)
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.getConstructor(Constructor.java:313)
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.construct(Constructor.java:323)
+	... 9 more
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-26 17:42:47.246
+!MESSAGE (Build 4.6.0.201605201934) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-26 17:42:47.246
+!MESSAGE (Build 4.6.0.201605201934) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.ui.ide 4 0 2016-10-26 17:42:50.250
+!MESSAGE (Build 4.6.0.201605201934) [ERROR] com.appcelerator.titanium.core/debug/dashboard Unknown SDK windows
+
+!ENTRY com.aptana.samples 4 0 2016-10-26 17:42:50.251
+!MESSAGE (Build 4.6.0.201605201934) [ERROR]  Unable to retrieve the icon at null for sample Apple WatchOS2
+
+!ENTRY com.aptana.samples 4 0 2016-10-26 17:42:50.252
+!MESSAGE (Build 4.6.0.201605201934) [ERROR]  Unable to retrieve the icon at null for sample iOS 9 App Search
+
+!ENTRY com.aptana.samples 4 0 2016-10-26 17:42:50.254
+!MESSAGE (Build 4.6.0.201605201934) [ERROR]  Unable to retrieve the icon at null for sample Ti SDK 4.1 Example App
+
+!ENTRY com.aptana.samples 4 0 2016-10-26 17:42:50.255
+!MESSAGE (Build 4.6.0.201605201934) [ERROR]  Unable to retrieve the icon at null for sample Employee Directory
+
+!ENTRY com.aptana.samples 4 0 2016-10-26 17:42:50.257
+!MESSAGE (Build 4.6.0.201605201934) [ERROR]  Unable to retrieve the icon at null for sample Movies
+
+!ENTRY com.aptana.samples 4 0 2016-10-26 17:42:50.258
+!MESSAGE (Build 4.6.0.201605201934) [ERROR]  Unable to retrieve the icon at null for sample Geocoder
+
+!ENTRY com.aptana.samples 4 0 2016-10-26 17:42:50.259
+!MESSAGE (Build 4.6.0.201605201934) [ERROR]  Unable to retrieve the icon at null for sample Rss Reader
+
+!ENTRY com.aptana.git.core 4 0 2016-10-26 17:44:36.691
+!MESSAGE (Build 4.6.0.201605201934) [ERROR]  Errors occurred while grabbing changed file listings
