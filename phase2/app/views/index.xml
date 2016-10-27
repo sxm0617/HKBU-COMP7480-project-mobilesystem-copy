@@ -1,6 +1,5 @@
 <Alloy>
 	<Collection src="house" />
-	<Collection src="events" />
 	<TabGroup>
 		<Tab title="Home" icon="Home.png">
 			<Window title="Online House Renting System">
@@ -21,8 +20,8 @@
 		</Tab>
 		<Tab title="Map" icon="Map.png">
 			<Window>
-				<Module id="mapView" module="ti.map" method="createView" userLocation="true">
-					<Annotation id="acHall"></Annotation>
+				<Module id="mapView" module="ti.map" method="createView" userLocation="true" dataCollection="house">
+					<Annotation latitude="{Latitude}" longitude="{Longtitude}" />
 				</Module>
 			</Window>
 		</Tab>
@@ -31,12 +30,5 @@
 				<Label>I am Window 2</Label>
 			</Window>
 		</Tab>
-		<!-- <Tab title="My Account" icon="Account.png">			
-		    <Window id='win'>
-		        <TableView dataCollection="events">
-		            <TableViewRow title="{title}" /> 
-		        </TableView>
-		    </Window>
-		</Tab> -->
 	</TabGroup>
 </Alloy>

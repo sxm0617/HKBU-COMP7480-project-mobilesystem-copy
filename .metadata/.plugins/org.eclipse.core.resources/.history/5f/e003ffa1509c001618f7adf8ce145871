@@ -1,0 +1,34 @@
+<Alloy>
+	<Collection src="house" />
+	<TabGroup>
+		<Tab title="Home" icon="Home.png">
+			<Window title="Online House Renting System">
+				<TableView dataCollection="house">
+						<TableViewRow title="{Name}" />
+				</TableView>
+			</Window>
+		</Tab>
+		<Tab title="By Price" icon="Price.png">
+			<Window title="Online House Renting System">
+				<Label>I am Window 2</Label>
+			</Window>
+		</Tab>
+		<Tab title="By Location" icon="Location.png">
+			<Window title="Online House Renting System">
+				<Label>I am Window 2</Label>
+			</Window>
+		</Tab>
+		<Tab title="Map" icon="Map.png">
+			<Window>
+				<Module id="mapView" module="ti.map" method="createView" userLocation="true" dataCollection="house">
+					<Annotation id="acHall" latitude="{Latitude}" longitude="{Longtitude}" <!-- title="{Name}" subtitle="{ChineseName}" --> />
+				</Module>
+			</Window>
+		</Tab>
+		<Tab title="My Account" icon="Account.png">
+			<Window title="Online House Renting System">
+				<Label>I am Window 2</Label>
+			</Window>
+		</Tab>
+	</TabGroup>
+</Alloy>

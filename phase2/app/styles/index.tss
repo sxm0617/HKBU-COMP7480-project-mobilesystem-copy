@@ -15,18 +15,9 @@
 
 "#mapView": { 
     region: {
-        latitude: 22.337827, 
-        longitude: 114.181962, 
-        latitudeDelta: 0.006, 
-        longitudeDelta: 0.006
-    }
-}
-
-"#acHall": {
-	region: {
-        latitude: 22.337827, 
-        longitude: 114.181962,
-        title: "AC Hall",
-    	subtitle: "香港浸會大學大學會堂" 
+        latitude: 22.333, 
+        longitude: 114.113, 
+        latitudeDelta: 0.35, 
+        longitudeDelta: 0.35
     }
 }
