@@ -20,8 +20,10 @@
 			</Window>
 		</Tab>
 		<Tab title="Map" icon="Map.png">
-			<Window title="Online House Renting System">
-				<Label>I am Window 2</Label>
+			<Window>
+				<Module id="mapView" module="ti.map" method="createView" userLocation="true">
+					<Annotation id="acHall"></Annotation>
+				</Module>
 			</Window>
 		</Tab>
 		<Tab title="My Account" icon="Account.png">

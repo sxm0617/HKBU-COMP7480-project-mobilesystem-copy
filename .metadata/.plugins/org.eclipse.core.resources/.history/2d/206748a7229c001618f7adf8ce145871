@@ -1,0 +1,40 @@
+<Alloy>
+	<Collection src="house" />
+	<Collection src="events" />
+	<TabGroup>
+		<Tab title="Home" icon="Home.png">
+			<Window title="Online House Renting System">
+				<TableView dataCollection="house">
+						<TableViewRow title="{Name}" />
+				</TableView>
+			</Window>
+		</Tab>
+		<Tab title="By Price" icon="Price.png">
+			<Window title="Online House Renting System">
+				<Label>I am Window 2</Label>
+			</Window>
+		</Tab>
+		<Tab title="By Location" icon="Location.png">
+			<Window title="Online House Renting System">
+				<Label>I am Window 2</Label>
+			</Window>
+		</Tab>
+		<Tab title="Map" icon="Map.png">
+			<Window>
+				<Module id="map" module="ti.map" method="createView" userLocation="true" />
+			</Window>
+		</Tab>
+		<Tab title="My Account" icon="Account.png">
+			<Window title="Online House Renting System">
+				<Label>I am Window 2</Label>
+			</Window>
+		</Tab>
+		<!-- <Tab title="My Account" icon="Account.png">			
+		    <Window id='win'>
+		        <TableView dataCollection="events">
+		            <TableViewRow title="{title}" /> 
+		        </TableView>
+		    </Window>
+		</Tab> -->
+	</TabGroup>
+</Alloy>
