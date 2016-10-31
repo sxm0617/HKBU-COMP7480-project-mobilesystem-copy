@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<list key="installedFeatures">
+		<item value="com.appcelerator.titanium.feature.360.rcp:4.6.0.201605201934-867nFNOFGuqbpKdSfT3HTIVOQ8Uf"/>
+		<item value="com.appcelerator.titanium.studio:4.6.0.1463771465-7o7b7v9DBlGIiAjVI"/>
+		<item value="com.aptana.feature:4.6.0.1463039225-B37h83CK2M_fmWvWe9833355984B"/>
+		<item value="org.eclipse.emf.common:2.10.1.v20150123-0348"/>
+		<item value="org.eclipse.emf.ecore:2.10.2.v20150123-0348"/>
+		<item value="org.eclipse.help:2.0.103.v20150204-1700"/>
+		<item value="org.eclipse.platform:4.4.2.v20150204-1700"/>
+		<item value="org.eclipse.rcp:4.4.2.v20150204-1700"/>
+	</list>
 	<section name="com.aptana.ui.dialogs.ProjectContentsLocationArea">
 		<item value="/Users/xdeveloper/Desktop/project-mobileapp-sxm0617" key="OUTSIDE_LOCATION"/>
 	</section>

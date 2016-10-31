@@ -1,0 +1,17 @@
+$.index.open();
+
+Alloy.Collections.webNews.fetch();
+Alloy.Collections.estate.fetch();
+
+function showId(e) {
+	console.log(e.value);
+}
+
+function getEstateInfo(model) {
+	var transform = model.toJSON();
+	
+	transform.title = transform.Name;
+	transform.subtitle = transform.ChineseName;
+	
+	return transform;
+}

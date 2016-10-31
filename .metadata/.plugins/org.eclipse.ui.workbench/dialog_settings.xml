@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="EditorSelectionDialog">
+		<item value="true" key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL"/>
+	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
 		<item value="720" key="dialogHeight"/>
 		<item value="1280" key="dialogWidth"/>
@@ -10,6 +13,12 @@
 		<list key="orderedProviders">
 		</list>
 		<list key="textArray">
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item value="com.appcelerator.titanium.ui.import.wizard" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="com.appcelerator.titanium.import.wizard.category"/>
 		</list>
 	</section>
 </section>

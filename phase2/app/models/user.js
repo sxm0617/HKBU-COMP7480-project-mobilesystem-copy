@@ -1,11 +1,23 @@
 exports.definition = {
 	config: {
+		"columns": {
+	        "id":"INTEGER PRIMARY KEY",
+			"username": "text",
+			"password": "text"
+	    },
+	    
+	    "URL": "http://158.182.111.19:1337/user",
+	    
+	    
+	    "debug": 1,
 
 		adapter: {
-			type: "sql",
+			type: "sqlrest",
 			collection_name: "user",
-			"db_file" : "/OHRS.sqlite",
-			"idAttribute" : "id"
+			"idAttribute" : "id",
+			
+			"addModifedToUrl": true,
+        	"lastModifiedColumn": "modified"
 		}
 	},
 	extendModel: function(Model) {

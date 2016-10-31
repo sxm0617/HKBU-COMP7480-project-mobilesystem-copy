@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="TitaniumProjectImportWizard">
+		<item value="false" key="COPY_PROJECT"/>
+		<item value="/Users/xdeveloper/Desktop/project-mobileapp-sxm0617/phase2" key="LAST_IMPORT_PATH"/>
+	</section>
 	<section name="com.appcelerator.titanium.ui.ide.tiappEditor.ModuleSelectionDialog">
 		<item value="true" key="ShowStatusLine"/>
 		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History/&gt;" key="History"/>
