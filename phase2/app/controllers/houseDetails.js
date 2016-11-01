@@ -1,12 +1,9 @@
 var args = arguments[0] || {};
-var id = args.house_id[0] || {};
+var id = args.house_id || {};
 
 Alloy.Collections.house.fetch();
 
 function showHouse(collection) {
-	for (var i = 0; i < id.length; i++) {
-		console.log(id[i]);
-	}
-	//console.log(id.length);
-	return collection.where({id: id});
+	return collection.where({id: parseInt(id)});
 }
+

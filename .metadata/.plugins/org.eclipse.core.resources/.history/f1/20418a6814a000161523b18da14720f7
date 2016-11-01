@@ -1,0 +1,16 @@
+var args = arguments[0] || {};
+var id = args.house_id || {};
+
+Alloy.Collections.house.fetch();
+
+function CFRHouse(collection) {
+	return collection.where({bedroom: {$gt: 2}});
+}
+
+function showHouseDetails(e) {
+	var houseDetailsController = Alloy.createController("houseDetails", {
+		house_id: e.row.fid		
+	});
+	
+	$.index.activeTab.open(houseDetailsController.getView());
+}

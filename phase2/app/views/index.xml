@@ -6,7 +6,7 @@
 		<Tab title="Home" icon="Home.png">
 			<Window title="Online House Renting System">
 				<TableView dataCollection="house" dataFilter="showHighlight">
-					<TableViewRow layout="vertical" onClick="showHouseDetails" id="{id}">
+					<TableViewRow layout="vertical" onClick="showHouseDetails" fid="{id}">
 						<ImageView image="{image}" top="20dp" />
 						<Label text="{title}" bottom="20dp" />
 					</TableViewRow>		
@@ -17,12 +17,12 @@
 			<Window title="Online House Renting System">
 				<TableView>
 					<TableViewSection headerTitle="$0-$15000">
-						<TableViewRow title="    1-2 bedrooms" />
-						<TableViewRow title="    3+ bedrooms" />
+						<TableViewRow title="    1-2 bedrooms" onClick="showCFRHouse"/>
+						<TableViewRow title="    3+ bedrooms" onClick="showCMRHouse" />
 					</TableViewSection>
 					<TableViewSection headerTitle="$15000+">
-						<TableViewRow title="    1-2 bedrooms" />
-						<TableViewRow title="    3+ bedrooms" />
+						<TableViewRow title="    1-2 bedrooms" onClick="showEFRHouse" />
+						<TableViewRow title="    3+ bedrooms" onClick="showEMRHouse" />
 					</TableViewSection>	
 				</TableView>
 			</Window>
