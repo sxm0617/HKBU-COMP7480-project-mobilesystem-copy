@@ -1,0 +1,10 @@
+<Alloy>
+	<Collection src="house" />
+	<Window>
+		<TableView dataCollection="house">
+			<TableViewRow>
+				<>     
+			</TableViewRow>
+		</TableView>
+	</Window>
+</Alloy>

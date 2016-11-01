@@ -1,0 +1,2 @@
+var args = $.args;
+var id = args.id || {};

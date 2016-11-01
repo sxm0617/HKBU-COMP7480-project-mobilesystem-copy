@@ -4,23 +4,26 @@ Alloy.Collections.house.fetch();
 Alloy.Collections.estate.fetch();
 Alloy.Collections.user.fetch();
 
-function showId(e) {
-	console.log(e.value);
-}
-
 function getEstateInfo(model) {
 	var transform = model.toJSON();
 	
 	transform.title = transform.Name;
 	transform.subtitle = transform.ChineseName;
+	transform.id = transform.id;
+	transform.rightButton = Titanium.UI.iPhone.SystemButton.DISCLOSURE;
 	
 	return transform;
 }
 
-function lowerPrice(model) {
-	var transform = model.toJSON();
-	if (transform.price >= 15000) {
-		transform.remove();
-	}
-	return transform;
+function showHighlight(collection) {
+	return collection.where({highlight: "1"});
 }
+
+function showHouseDetails(e) {
+	var houseDetailsController = Alloy.createController("houseDetails", {
+		house_id: e.row.id		
+	});
+	
+	$.index.activeTab.open(houseDetailsController.getView());
+}
+

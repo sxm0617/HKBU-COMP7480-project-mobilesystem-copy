@@ -1,0 +1,11 @@
+<Alloy>
+	<Collection src="house" />
+	<Window>
+		<TableView dataCollection="house">
+			<TableViewRow layout="vertical">
+				<ImageView image="{image}" top="20dp" />
+				<Label text="Description: {title}"/>    
+			</TableViewRow>
+		</TableView>
+	</Window>
+</Alloy>

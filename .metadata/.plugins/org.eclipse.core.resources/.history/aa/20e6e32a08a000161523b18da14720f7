@@ -1,0 +1,9 @@
+var args = arguments[0] || {};
+var id = args.id || {};
+
+Alloy.Collections.house.fetch();
+
+function showHouse(collection) {
+	alert(id);
+	return collection.where({id: parseInt(id)});
+}

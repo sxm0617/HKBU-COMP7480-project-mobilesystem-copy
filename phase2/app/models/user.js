@@ -2,8 +2,8 @@ exports.definition = {
 	config: {
 		"columns": {
 	        "id":"INTEGER PRIMARY KEY",
-			"username": "text",
-			"password": "text"
+			"username": "TEXT",
+			"password": "TEXT"
 	    },
 	    
 	    "URL": "http://158.182.111.19:1337/user",

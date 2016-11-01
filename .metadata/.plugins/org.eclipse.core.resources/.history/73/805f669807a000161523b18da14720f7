@@ -1,0 +1,8 @@
+var args = $.args;
+var id = args.id || {};
+
+Alloy.Collections.house.fetch();
+
+function showHouse() {
+	
+}
