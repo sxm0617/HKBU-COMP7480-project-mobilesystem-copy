@@ -4,11 +4,9 @@ var id = args.house_id || {};
 Alloy.Collections.house.fetch();
 
 function CFRHouse(collection) {
-	// var CFR = collection.filter(function(m) {
-		// return m.bedroom > 2;
-	// });
-	// return CFR;
-	//return collection.where({bedroom: '<3'});
+	return collection.filter(function(house) {
+		return house.get("price") <= 15000 && house.get("bedroom") <= 2;
+	});
 }
 
 function showHouseDetails(e) {

@@ -1,0 +1,9 @@
+var args = $.args;
+
+Alloy.Collections.house.fetch();
+
+function CFRHouse(collection) {
+	return collection.filter(function(house) {
+		return house.get("bedroom") > 2;
+	});
+}

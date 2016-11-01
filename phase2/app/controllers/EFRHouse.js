@@ -3,5 +3,7 @@ var args = $.args;
 Alloy.Collections.house.fetch();
 
 function CFRHouse(collection) {
-	return collection.where({bedroom: "<3", price: "<=15000"});
+	return collection.filter(function(house) {
+		return house.get("price") > 15000 && house.get("bedroom") <= 2;
+	});
 }

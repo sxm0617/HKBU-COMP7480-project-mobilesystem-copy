@@ -1,4 +1,10 @@
 <Alloy>
-	<View class="container">
-	</View>
+	<Collection src="house" />
+	<Window>
+		<TableView dataCollection="house" dataFilter="CFRHouse">
+			<TableViewRow layout="vertical" fid="{id}">
+				<Label text="{title}"/>   
+			</TableViewRow>
+		</TableView>
+	</Window>
 </Alloy>
