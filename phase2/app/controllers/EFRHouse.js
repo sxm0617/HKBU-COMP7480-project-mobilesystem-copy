@@ -7,3 +7,11 @@ function CFRHouse(collection) {
 		return house.get("price") > 15000 && house.get("bedroom") <= 2;
 	});
 }
+
+function showHouseDetails(e) {
+	var houseDetailsController = Alloy.createController("houseDetails", {
+		house_id: e.row.fid	
+	});
+	
+	Alloy.Globals.index.activeTab.open(houseDetailsController.getView());
+}

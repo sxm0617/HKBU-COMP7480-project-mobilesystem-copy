@@ -1,8 +1,12 @@
 $.index.open();
 
-Alloy.Collections.house.fetch();
-Alloy.Collections.estate.fetch();
-Alloy.Collections.user.fetch();
+Alloy.Globals.index = $.index;
+
+function updateFetch() {
+	Alloy.Collections.house.fetch();
+	Alloy.Collections.estate.fetch();
+	Alloy.Collections.user.fetch();
+}
 
 function getEstateInfo(model) {
 	var transform = model.toJSON();
@@ -16,7 +20,10 @@ function getEstateInfo(model) {
 }
 
 function showHighlight(collection) {
-	return collection.where({highlight: "1"});
+	return collection.filter(function(house) {
+		var highlight = house.get("highlight");
+		return highlight == "1" || highlight == "true";
+	});
 }
 
 function showHouseDetails(e) {
@@ -24,6 +31,7 @@ function showHouseDetails(e) {
 		house_id: e.row.fid		
 	});
 	
+	$.index.setActiveTab(1);
 	$.index.activeTab.open(houseDetailsController.getView());
 }
 

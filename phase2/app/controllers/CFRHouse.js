@@ -1,5 +1,4 @@
-var args = arguments[0] || {};
-var id = args.house_id || {};
+var args = $.args;
 
 Alloy.Collections.house.fetch();
 
@@ -14,5 +13,5 @@ function showHouseDetails(e) {
 		house_id: e.row.fid	
 	});
 	
-	$.index.activeTab.open(houseDetailsController.getView());
+	Alloy.Globals.index.activeTab.open(houseDetailsController.getView());
 }

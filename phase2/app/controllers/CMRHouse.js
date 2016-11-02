@@ -8,3 +8,10 @@ function CMRHouse(collection) {
 	});
 }
 
+function showHouseDetails(e) {
+	var houseDetailsController = Alloy.createController("houseDetails", {
+		house_id: e.row.fid	
+	});
+	
+	Alloy.Globals.index.activeTab.open(houseDetailsController.getView());
+}

@@ -2,7 +2,7 @@
 	<Collection src="house" />
 	<Window>
 		<TableView dataCollection="house" dataFilter="CMRHouse">
-			<TableViewRow layout="vertical" fid="{id}">
+			<TableViewRow layout="vertical" onClick="showHouseDetails" fid="{id}">
 				<Label text="{title}"/>   
 			</TableViewRow>
 		</TableView>
