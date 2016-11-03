@@ -29,10 +29,10 @@
 		</Tab>
 		<Tab title="By Location" icon="Location.png">
 			<Window title="Online House Renting System" >
-				<TableView dataCollection="estate" dataTransform="transformFunction">
-					<TableViewSection headerTitle="{header}" >
-						<TableViewRow title="    {Name}" onClick="showHouses"/>
-					</TableViewSection>	
+				<TableView dataCollection="estate" dataTransform="setHeader">
+					<TableViewSection headerTitle="{District}" >
+						<TableViewRow title="{Name}" onClick="showHouses"/>
+					</TableViewSection>
 				</TableView>
 			</Window>
 		</Tab>

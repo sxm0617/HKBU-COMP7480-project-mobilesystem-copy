@@ -2,10 +2,14 @@ $.index.open();
 
 Alloy.Globals.index = $.index;
 
+Alloy.Collections.house.fetch();
+Alloy.Collections.estate.fetch();
+Alloy.Collections.user.fetch();
+
 function updateFetch() {
-	Alloy.Collections.house.fetch();
-	Alloy.Collections.estate.fetch();
-	Alloy.Collections.user.fetch();
+	//Alloy.Collections.house.fetch();
+	//Alloy.Collections.estate.fetch();
+	//Alloy.Collections.user.fetch();
 }
 
 function getEstateInfo(model) {
@@ -23,7 +27,7 @@ function showHouses(e) {
 	var activeTab = $.index.tabs.indexOf($.index.getActiveTab());
 	if (activeTab == 2) {
 		var housesInEstateController = Alloy.createController("housesInEstate", {
-			estate_name: e.row.title.substring(4)
+			estate_name: e.row.title
 		});
 			
 		console.log(e.row.title);	
@@ -40,11 +44,6 @@ function showHouses(e) {
 		}
 	}
 }
-
-
-// function usedEstate(collection) {
-// 	
-// }
 
 function showHighlight(collection) {
 	return collection.filter(function(house) {
@@ -87,13 +86,13 @@ function showEMRHouse() {
 
 var previous = "";
 
-function transformFunction(model) {
+function setHeader(house) {
 	
-	var transform = model.toJSON();
-	
-	if (previous != transform.District) {
-		previous = transform.District;
-		transform.header = previous;
+	var model = house.toJSON();
+	if (model.District == previous) {
+		model.District = "";
+	} else {
+		previous = model.District;
 	}
-	return transform;
+	return model;
 }
