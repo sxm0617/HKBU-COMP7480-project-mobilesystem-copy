@@ -13,5 +13,6 @@ function showHouseDetails(e) {
 		house_id: e.row.fid	
 	});
 	
+	Alloy.Globals.index.setActiveTab(0);
 	Alloy.Globals.index.activeTab.open(houseDetailsController.getView());
 }

@@ -15,9 +15,36 @@ function getEstateInfo(model) {
 	transform.subtitle = transform.ChineseName;
 	transform.id = transform.id;
 	transform.rightButton = Titanium.UI.iPhone.SystemButton.DISCLOSURE;
-	
+		
 	return transform;
 }
+
+function showHouses(e) {
+	var activeTab = $.index.tabs.indexOf($.index.getActiveTab());
+	if (activeTab == 2) {
+		var housesInEstateController = Alloy.createController("housesInEstate", {
+			estate_name: e.row.title.substring(4)
+		});
+			
+		console.log(e.row.title);	
+		$.index.activeTab.open(housesInEstateController.getView());
+	}
+	
+	if (activeTab == 3) {
+		if (e.clicksource == "rightButton") {
+			var housesInEstateController = Alloy.createController("housesInEstate", {
+				estate_name: e.annotation.Name
+			});
+			
+			$.index.activeTab.open(housesInEstateController.getView());
+		}
+	}
+}
+
+
+// function usedEstate(collection) {
+// 	
+// }
 
 function showHighlight(collection) {
 	return collection.filter(function(house) {
@@ -31,7 +58,6 @@ function showHouseDetails(e) {
 		house_id: e.row.fid		
 	});
 	
-	$.index.setActiveTab(1);
 	$.index.activeTab.open(houseDetailsController.getView());
 }
 
@@ -57,4 +83,17 @@ function showEMRHouse() {
 	var EMRHouseController = Alloy.createController("EMRHouse");
 	
 	$.index.activeTab.open(EMRHouseController.getView());
+}
+
+var previous = "";
+
+function transformFunction(model) {
+	
+	var transform = model.toJSON();
+	
+	if (previous != transform.District) {
+		previous = transform.District;
+		transform.header = previous;
+	}
+	return transform;
 }

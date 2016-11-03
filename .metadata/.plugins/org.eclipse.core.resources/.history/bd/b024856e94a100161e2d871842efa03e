@@ -1,0 +1,5 @@
+var args = arguments[0] || {};
+var estate_id = args.house_id;
+
+Alloy.Collections.house.fetch();
+

@@ -1,0 +1,11 @@
+var args = arguments[0] || {};
+var estate_name = args.house_name;
+
+Alloy.Collections.house.fetch();
+
+function showHouse(collection) {
+	return collection.filter(function(house) {
+		console.log(house.get("district"));
+		return house.get("district") == estate_name;
+	});
+}

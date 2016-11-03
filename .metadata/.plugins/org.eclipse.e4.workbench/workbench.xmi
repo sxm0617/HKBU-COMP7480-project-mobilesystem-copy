@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_nrK9gKDOEea8E9ueDCOhNQ" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_nrK9gaDOEea8E9ueDCOhNQ" bindingContexts="_nrLl2KDOEea8E9ueDCOhNQ">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;CFRHouse.js&quot; tooltip=&quot;phase2/app/controllers/CFRHouse.js&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/controllers/CFRHouse.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.xml.alloy&quot; name=&quot;EMRHouse.xml&quot; tooltip=&quot;phase2/app/views/EMRHouse.xml&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/views/EMRHouse.xml&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.xml.alloy&quot; name=&quot;EFRHouse.xml&quot; tooltip=&quot;phase2/app/views/EFRHouse.xml&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/views/EFRHouse.xml&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.xml.alloy&quot; name=&quot;CMRHouse.xml&quot; tooltip=&quot;phase2/app/views/CMRHouse.xml&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/views/CMRHouse.xml&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;EMRHouse.js&quot; tooltip=&quot;phase2/app/controllers/EMRHouse.js&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/controllers/EMRHouse.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;EFRHouse.js&quot; tooltip=&quot;phase2/app/controllers/EFRHouse.js&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/controllers/EFRHouse.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;CMRHouse.js&quot; tooltip=&quot;phase2/app/controllers/CMRHouse.js&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/controllers/CMRHouse.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;houseDetails.js&quot; tooltip=&quot;phase2/app/controllers/houseDetails.js&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/controllers/houseDetails.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.xml.alloy&quot; name=&quot;houseDetails.xml&quot; tooltip=&quot;phase2/app/views/houseDetails.xml&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/views/houseDetails.xml&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.xml.alloy&quot; name=&quot;CFRHouse.xml&quot; tooltip=&quot;phase2/app/views/CFRHouse.xml&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/views/CFRHouse.xml&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.xml.alloy&quot; name=&quot;index.xml&quot; tooltip=&quot;phase2/app/views/index.xml&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/views/index.xml&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;index.js&quot; tooltip=&quot;phase2/app/controllers/index.js&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/controllers/index.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;sqlrest.js&quot; tooltip=&quot;phase2/app/assets/alloy/sync/sqlrest.js&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/assets/alloy/sync/sqlrest.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;house.js&quot; tooltip=&quot;phase2/app/models/house.js&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/models/house.js&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.xml.alloy&quot; name=&quot;houseLocation.xml&quot; tooltip=&quot;phase2/app/views/houseLocation.xml&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/views/houseLocation.xml&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.appcelerator.titanium.editor.tss&quot; name=&quot;houseLocation.tss&quot; tooltip=&quot;phase2/app/styles/houseLocation.tss&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/styles/houseLocation.tss&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;houseLocation.js&quot; tooltip=&quot;phase2/app/controllers/houseLocation.js&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/controllers/houseLocation.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;housesInEstate.js&quot; tooltip=&quot;phase2/app/controllers/housesInEstate.js&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/controllers/housesInEstate.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.xml.alloy&quot; name=&quot;houseDetails.xml&quot; tooltip=&quot;phase2/app/views/houseDetails.xml&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/views/houseDetails.xml&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;houseDetails.js&quot; tooltip=&quot;phase2/app/controllers/houseDetails.js&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/controllers/houseDetails.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.xml.alloy&quot; name=&quot;CFRHouse.xml&quot; tooltip=&quot;phase2/app/views/CFRHouse.xml&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/views/CFRHouse.xml&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;CFRHouse.js&quot; tooltip=&quot;phase2/app/controllers/CFRHouse.js&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/controllers/CFRHouse.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;EMRHouse.js&quot; tooltip=&quot;phase2/app/controllers/EMRHouse.js&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/controllers/EMRHouse.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;EFRHouse.js&quot; tooltip=&quot;phase2/app/controllers/EFRHouse.js&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/controllers/EFRHouse.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;CMRHouse.js&quot; tooltip=&quot;phase2/app/controllers/CMRHouse.js&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/controllers/CMRHouse.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.appcelerator.titanium.editor.tss&quot; name=&quot;index.tss&quot; tooltip=&quot;phase2/app/styles/index.tss&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/styles/index.tss&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.appcelerator.titanium.editor.tss&quot; name=&quot;houseDetails.tss&quot; tooltip=&quot;phase2/app/styles/houseDetails.tss&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/styles/houseDetails.tss&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.xml.alloy&quot; name=&quot;housesInEstate.xml&quot; tooltip=&quot;phase2/app/views/housesInEstate.xml&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/views/housesInEstate.xml&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;index.js&quot; tooltip=&quot;phase2/app/controllers/index.js&quot;>&#xA;&lt;persistable path=&quot;/phase2/app/controllers/index.js&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_nrK9gaDOEea8E9ueDCOhNQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_nrK9gqDOEea8E9ueDCOhNQ" label="%trimmedwindow.label.eclipseSDK" x="657" y="92" width="1260" height="940">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_nrK9gaDOEea8E9ueDCOhNQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_nrK9gqDOEea8E9ueDCOhNQ" label="%trimmedwindow.label.eclipseSDK" x="750" y="68" width="1260" height="940">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workingSets/>"/>
@@ -46,10 +46,11 @@
           <tags>persp.actionSet:com.aptana.js.debug.ui.actionSet</tags>
           <tags>persp.newWizSC:com.appcelerator.titanium.mobile.project_wizard</tags>
           <tags>persp.newWizSC:com.appcelerator.titanium.mobile.module.wizard</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_nrK9haDOEea8E9ueDCOhNQ" selectedElement="_nrK9jqDOEea8E9ueDCOhNQ" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_nrK9haDOEea8E9ueDCOhNQ" selectedElement="_nrK9hqDOEea8E9ueDCOhNQ" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_nrK9hqDOEea8E9ueDCOhNQ" containerData="1814" selectedElement="_nrK9h6DOEea8E9ueDCOhNQ">
               <children xsi:type="basic:PartStack" xmi:id="_nrK9h6DOEea8E9ueDCOhNQ" elementId="leftArea" containerData="7500" selectedElement="_nrK9iqDOEea8E9ueDCOhNQ">
                 <tags>newtablook</tags>
+                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_nrK9iKDOEea8E9ueDCOhNQ" elementId="com.aptana.explorer.view" toBeRendered="false" ref="_nrK-76DOEea8E9ueDCOhNQ"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_nrK9iaDOEea8E9ueDCOhNQ" elementId="com.aptana.ui.io.remoteview" toBeRendered="false" ref="_nrK-8KDOEea8E9ueDCOhNQ"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_nrK9iqDOEea8E9ueDCOhNQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_nrK-tqDOEea8E9ueDCOhNQ"/>
@@ -60,12 +61,11 @@
                 <children xsi:type="advanced:Placeholder" xmi:id="_nrK9jaDOEea8E9ueDCOhNQ" elementId="com.aptana.snippets.ui.views.SnippetsView" toBeRendered="false" ref="_nrK_EqDOEea8E9ueDCOhNQ"/>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_nrK9jqDOEea8E9ueDCOhNQ" containerData="8186" selectedElement="_nrK9kKDOEea8E9ueDCOhNQ">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_nrK9jqDOEea8E9ueDCOhNQ" containerData="8186" selectedElement="_nrK9j6DOEea8E9ueDCOhNQ">
               <children xsi:type="advanced:Placeholder" xmi:id="_nrK9j6DOEea8E9ueDCOhNQ" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_nrK-gaDOEea8E9ueDCOhNQ"/>
               <children xsi:type="basic:PartStack" xmi:id="_nrK9kKDOEea8E9ueDCOhNQ" elementId="terminalArea" containerData="2500" selectedElement="_nrK9kaDOEea8E9ueDCOhNQ">
                 <tags>newtablook</tags>
                 <tags>org.eclipse.e4.secondaryDataStack</tags>
-                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_nrK9kaDOEea8E9ueDCOhNQ" elementId="org.eclipse.ui.console.ConsoleView" ref="_nrK_E6DOEea8E9ueDCOhNQ"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_nrK9kqDOEea8E9ueDCOhNQ" elementId="com.aptana.terminal.views.terminal:*" toBeRendered="false" ref="_nrK_PKDOEea8E9ueDCOhNQ"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_nrK9k6DOEea8E9ueDCOhNQ" elementId="com.aptana.terminal.views.terminal" toBeRendered="false" ref="_nrK_PaDOEea8E9ueDCOhNQ"/>
@@ -98,163 +98,45 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_nrK-gaDOEea8E9ueDCOhNQ" elementId="org.eclipse.ui.editorss" selectedElement="_nrK-gqDOEea8E9ueDCOhNQ">
-      <children xsi:type="basic:PartStack" xmi:id="_nrK-gqDOEea8E9ueDCOhNQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_nrK-g6DOEea8E9ueDCOhNQ">
+      <children xsi:type="basic:PartStack" xmi:id="_nrK-gqDOEea8E9ueDCOhNQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_MRbTMKGUEea69eH8iVR9ZQ">
         <tags>newtablook</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <children xsi:type="basic:Part" xmi:id="_nrK-g6DOEea8E9ueDCOhNQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="index.js" iconURI="platform:/plugin/com.aptana.editor.js/icons/js.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;com.aptana.editor.js&quot; name=&quot;index.js&quot; partName=&quot;index.js&quot; title=&quot;index.js&quot; tooltip=&quot;phase2/app/controllers/index.js&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/phase2/app/controllers/index.js&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;245&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_84IqcKGSEea69eH8iVR9ZQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="index.xml" iconURI="platform:/plugin/com.aptana.editor.xml/icons/xml.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;com.aptana.editor.xml.alloy&quot; name=&quot;index.xml&quot; partName=&quot;index.xml&quot; title=&quot;index.xml&quot; tooltip=&quot;phase2/app/views/index.xml&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/phase2/app/views/index.xml&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1141&quot; selectionTopPixel=&quot;240&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>com.aptana.editor.xml.alloy</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="__cgEoKGSEea69eH8iVR9ZQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="index.js" iconURI="platform:/plugin/com.aptana.editor.js/icons/js.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;com.aptana.editor.js&quot; name=&quot;index.js&quot; partName=&quot;index.js&quot; title=&quot;index.js&quot; tooltip=&quot;phase2/app/controllers/index.js&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/phase2/app/controllers/index.js&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;230&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>com.aptana.editor.js</tags>
           <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_nrK-hKDOEea8E9ueDCOhNQ" elementId="com.aptana.editor.js">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:com.aptana.editor.js</tags>
-            <tags>popup:com.aptana.editor.js.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_nrK-nKDOEea8E9ueDCOhNQ" elementId="#RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#RulerContext</tags>
-            <tags>popup:com.aptana.editor.js.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_nrK-naDOEea8E9ueDCOhNQ" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_nrK-nqDOEea8E9ueDCOhNQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="CFRHouse.js" iconURI="platform:/plugin/com.aptana.editor.js/icons/js.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;com.aptana.editor.js&quot; name=&quot;CFRHouse.js&quot; partName=&quot;CFRHouse.js&quot; title=&quot;CFRHouse.js&quot; tooltip=&quot;phase2/app/controllers/CFRHouse.js&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/phase2/app/controllers/CFRHouse.js&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_AzURIKGUEea69eH8iVR9ZQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="housesInEstate.js" iconURI="platform:/plugin/com.aptana.editor.js/icons/js.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;com.aptana.editor.js&quot; name=&quot;housesInEstate.js&quot; partName=&quot;housesInEstate.js&quot; title=&quot;housesInEstate.js&quot; tooltip=&quot;phase2/app/controllers/housesInEstate.js&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/phase2/app/controllers/housesInEstate.js&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;401&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>com.aptana.editor.js</tags>
           <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_nrK-n6DOEea8E9ueDCOhNQ" elementId="com.aptana.editor.js">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:com.aptana.editor.js</tags>
-            <tags>popup:com.aptana.editor.js.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_nrK-oKDOEea8E9ueDCOhNQ" elementId="#RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#RulerContext</tags>
-            <tags>popup:com.aptana.editor.js.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_nrK-oaDOEea8E9ueDCOhNQ" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_nrK-oqDOEea8E9ueDCOhNQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="index.xml" iconURI="platform:/plugin/com.aptana.editor.xml/icons/xml.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;com.aptana.editor.xml.alloy&quot; name=&quot;index.xml&quot; partName=&quot;index.xml&quot; title=&quot;index.xml&quot; tooltip=&quot;phase2/app/views/index.xml&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/phase2/app/views/index.xml&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1080&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_OHJesKGUEea69eH8iVR9ZQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="housesInEstate.xml" iconURI="platform:/plugin/com.aptana.editor.xml/icons/xml.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;com.aptana.editor.xml.alloy&quot; name=&quot;housesInEstate.xml&quot; partName=&quot;housesInEstate.xml&quot; title=&quot;housesInEstate.xml&quot; tooltip=&quot;phase2/app/views/housesInEstate.xml&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/phase2/app/views/housesInEstate.xml&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;266&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>com.aptana.editor.xml.alloy</tags>
           <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_nrK-o6DOEea8E9ueDCOhNQ" elementId="com.aptana.editor.xml.alloy">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:com.aptana.editor.xml.alloy</tags>
-            <tags>popup:com.aptana.editor.xml.alloy.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_nrK-pKDOEea8E9ueDCOhNQ" elementId="#RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#RulerContext</tags>
-            <tags>popup:com.aptana.editor.xml.alloy.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_nrK-paDOEea8E9ueDCOhNQ" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_nrK-pqDOEea8E9ueDCOhNQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="CFRHouse.xml" iconURI="platform:/plugin/com.aptana.editor.xml/icons/xml.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;com.aptana.editor.xml.alloy&quot; name=&quot;CFRHouse.xml&quot; partName=&quot;CFRHouse.xml&quot; title=&quot;CFRHouse.xml&quot; tooltip=&quot;phase2/app/views/CFRHouse.xml&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/phase2/app/views/CFRHouse.xml&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;26&quot; selectionOffset=&quot;140&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_MRbTMKGUEea69eH8iVR9ZQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="houseDetails.xml" iconURI="platform:/plugin/com.aptana.editor.xml/icons/xml.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;com.aptana.editor.xml.alloy&quot; name=&quot;houseDetails.xml&quot; partName=&quot;houseDetails.xml&quot; title=&quot;houseDetails.xml&quot; tooltip=&quot;phase2/app/views/houseDetails.xml&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/phase2/app/views/houseDetails.xml&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;508&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>com.aptana.editor.xml.alloy</tags>
           <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_nrK-p6DOEea8E9ueDCOhNQ" elementId="com.aptana.editor.xml.alloy">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:com.aptana.editor.xml.alloy</tags>
-            <tags>popup:com.aptana.editor.xml.alloy.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_nrK-qKDOEea8E9ueDCOhNQ" elementId="#RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#RulerContext</tags>
-            <tags>popup:com.aptana.editor.xml.alloy.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_nrK-qaDOEea8E9ueDCOhNQ" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_nrK-qqDOEea8E9ueDCOhNQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="CMRHouse.xml" iconURI="platform:/plugin/com.aptana.editor.xml/icons/xml.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;com.aptana.editor.xml.alloy&quot; name=&quot;CMRHouse.xml&quot; partName=&quot;CMRHouse.xml&quot; title=&quot;CMRHouse.xml&quot; tooltip=&quot;phase2/app/views/CMRHouse.xml&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/phase2/app/views/CMRHouse.xml&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;263&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_g-qP4KGXEea69eH8iVR9ZQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="houseDetails.js" iconURI="platform:/plugin/com.aptana.editor.js/icons/js.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;com.aptana.editor.js&quot; name=&quot;houseDetails.js&quot; partName=&quot;houseDetails.js&quot; title=&quot;houseDetails.js&quot; tooltip=&quot;phase2/app/controllers/houseDetails.js&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/phase2/app/controllers/houseDetails.js&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;177&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
-          <tags>com.aptana.editor.xml.alloy</tags>
+          <tags>com.aptana.editor.js</tags>
           <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_nrK-q6DOEea8E9ueDCOhNQ" elementId="com.aptana.editor.xml.alloy">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:com.aptana.editor.xml.alloy</tags>
-            <tags>popup:com.aptana.editor.xml.alloy.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_nrK-rKDOEea8E9ueDCOhNQ" elementId="#RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#RulerContext</tags>
-            <tags>popup:com.aptana.editor.xml.alloy.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_nrK-raDOEea8E9ueDCOhNQ" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_nrK-rqDOEea8E9ueDCOhNQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="EFRHouse.xml" iconURI="platform:/plugin/com.aptana.editor.xml/icons/xml.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;com.aptana.editor.xml.alloy&quot; name=&quot;EFRHouse.xml&quot; partName=&quot;EFRHouse.xml&quot; title=&quot;EFRHouse.xml&quot; tooltip=&quot;phase2/app/views/EFRHouse.xml&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/phase2/app/views/EFRHouse.xml&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;166&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>com.aptana.editor.xml.alloy</tags>
-          <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_nrK-r6DOEea8E9ueDCOhNQ" elementId="com.aptana.editor.xml.alloy">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:com.aptana.editor.xml.alloy</tags>
-            <tags>popup:com.aptana.editor.xml.alloy.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_nrK-sKDOEea8E9ueDCOhNQ" elementId="#RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#RulerContext</tags>
-            <tags>popup:com.aptana.editor.xml.alloy.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_nrK-saDOEea8E9ueDCOhNQ" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_nrK-sqDOEea8E9ueDCOhNQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="EMRHouse.xml" iconURI="platform:/plugin/com.aptana.editor.xml/icons/xml.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;com.aptana.editor.xml.alloy&quot; name=&quot;EMRHouse.xml&quot; partName=&quot;EMRHouse.xml&quot; title=&quot;EMRHouse.xml&quot; tooltip=&quot;phase2/app/views/EMRHouse.xml&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/phase2/app/views/EMRHouse.xml&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;166&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>com.aptana.editor.xml.alloy</tags>
-          <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_nrK-s6DOEea8E9ueDCOhNQ" elementId="com.aptana.editor.xml.alloy">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:com.aptana.editor.xml.alloy</tags>
-            <tags>popup:com.aptana.editor.xml.alloy.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_nrK-tKDOEea8E9ueDCOhNQ" elementId="#RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#RulerContext</tags>
-            <tags>popup:com.aptana.editor.xml.alloy.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_nrK-taDOEea8E9ueDCOhNQ" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
         </children>
       </children>
     </sharedElements>
@@ -262,6 +144,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_nrK-t6DOEea8E9ueDCOhNQ" elementId="org.eclipse.ui.navigator.ProjectExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -314,7 +198,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
       <menus xmi:id="_nrK_FKDOEea8E9ueDCOhNQ" elementId="org.eclipse.ui.console.ConsoleView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -418,40 +301,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_nrK_SKDOEea8E9ueDCOhNQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_SaDOEea8E9ueDCOhNQ" elementId="new.group" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_SqDOEea8E9ueDCOhNQ" elementId="newWizardDropDown" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_S6DOEea8E9ueDCOhNQ" elementId="new.ext" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_TKDOEea8E9ueDCOhNQ" elementId="save.group" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_TaDOEea8E9ueDCOhNQ" elementId="save" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_TqDOEea8E9ueDCOhNQ" elementId="saveAll" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_T6DOEea8E9ueDCOhNQ" elementId="save.ext" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_nrK_UKDOEea8E9ueDCOhNQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_nrMz56DOEea8E9ueDCOhNQ"/>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_UaDOEea8E9ueDCOhNQ" elementId="print.ext" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_UqDOEea8E9ueDCOhNQ" elementId="build.group" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_U6DOEea8E9ueDCOhNQ" elementId="build.ext" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_VKDOEea8E9ueDCOhNQ" elementId="additions">
-          <tags>Opaque</tags>
-        </children>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_-WTjgqGQEea69eH8iVR9ZQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_nrMz56DOEea8E9ueDCOhNQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_nrK_V6DOEea8E9ueDCOhNQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -463,100 +313,16 @@
           <persistedState key="IIdentifier" value="com.appcelerator.titanium.360.ui/com.appcelerator.titanium.360.ui.command.test.pulldown"/>
           <menu xmi:id="_nrK_cKDOEea8E9ueDCOhNQ" elementId="com.appcelerator.titanium.360.ui.command.test.pulldown"/>
         </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_caDOEea8E9ueDCOhNQ" elementId="debug" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_cqDOEea8E9ueDCOhNQ" elementId="com.aptana.js.debug.ui.actions.openURL" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_c6DOEea8E9ueDCOhNQ" elementId="com.aptana.js.debug.ui.actions.ToggleBreakpoint" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_dKDOEea8E9ueDCOhNQ" elementId="org.eclipse.debug.internal.ui.actions.DebugDropDownAction" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_daDOEea8E9ueDCOhNQ" elementId="org.eclipse.debug.internal.ui.actions.RunDropDownAction" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_dqDOEea8E9ueDCOhNQ" elementId="org.eclipse.debug.internal.ui.actions.ProfileDropDownAction" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_d6DOEea8E9ueDCOhNQ" elementId="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_nrK_eKDOEea8E9ueDCOhNQ" elementId="com.appcelerator.titanium.360.ui.command.test.pulldown" iconURI="platform:/plugin/com.appcelerator.titanium.360.ui/icons/full/etool16/nav_test.png" command="_nrMzeqDOEea8E9ueDCOhNQ">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_nrK_eKDOEea8E9ueDCOhNQ" elementId="com.appcelerator.titanium.360.ui.command.test.pulldown" visible="false" iconURI="platform:/plugin/com.appcelerator.titanium.360.ui/icons/full/etool16/nav_test.png" command="_nrMzeqDOEea8E9ueDCOhNQ">
           <persistedState key="IIdentifier" value="com.appcelerator.titanium.360.ui/com.appcelerator.titanium.360.ui.command.test.pulldown"/>
           <menu xmi:id="_nrK_eaDOEea8E9ueDCOhNQ" elementId="com.appcelerator.titanium.360.ui.command.test.pulldown"/>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_eqDOEea8E9ueDCOhNQ" elementId="debug" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_e6DOEea8E9ueDCOhNQ" elementId="com.aptana.js.debug.ui.actions.openURL" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_fKDOEea8E9ueDCOhNQ" elementId="com.aptana.js.debug.ui.actions.ToggleBreakpoint" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_faDOEea8E9ueDCOhNQ" elementId="org.eclipse.debug.internal.ui.actions.DebugDropDownAction" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_fqDOEea8E9ueDCOhNQ" elementId="org.eclipse.debug.internal.ui.actions.RunDropDownAction" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_f6DOEea8E9ueDCOhNQ" elementId="org.eclipse.debug.internal.ui.actions.ProfileDropDownAction" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_gKDOEea8E9ueDCOhNQ" elementId="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar" visible="false">
-          <tags>Opaque</tags>
         </children>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_nrK_gaDOEea8E9ueDCOhNQ" elementId="org.eclipse.search.searchActionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_gqDOEea8E9ueDCOhNQ" elementId="Search" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_g6DOEea8E9ueDCOhNQ" elementId="org.eclipse.search.OpenSearchDialogPage" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_hKDOEea8E9ueDCOhNQ" elementId="Search" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_haDOEea8E9ueDCOhNQ" elementId="org.eclipse.search.OpenSearchDialogPage" visible="false">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_nrK_hqDOEea8E9ueDCOhNQ" elementId="org.eclipse.ui.edit.text.actionSet.presentation">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_h6DOEea8E9ueDCOhNQ" elementId="Presentation" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_iKDOEea8E9ueDCOhNQ" elementId="com.aptana.editor.common.toggleMarkOccurrences" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_iaDOEea8E9ueDCOhNQ" elementId="org.eclipse.ui.edit.text.toggleBlockSelectionMode" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_iqDOEea8E9ueDCOhNQ" elementId="org.eclipse.ui.edit.text.toggleShowWhitespaceCharacters" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_i6DOEea8E9ueDCOhNQ" elementId="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_jKDOEea8E9ueDCOhNQ" elementId="Presentation" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_jaDOEea8E9ueDCOhNQ" elementId="com.aptana.editor.common.toggleMarkOccurrences" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_jqDOEea8E9ueDCOhNQ" elementId="org.eclipse.ui.edit.text.toggleBlockSelectionMode" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_j6DOEea8E9ueDCOhNQ" elementId="org.eclipse.ui.edit.text.toggleShowWhitespaceCharacters" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_kKDOEea8E9ueDCOhNQ" elementId="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly" visible="false">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_nrK_kaDOEea8E9ueDCOhNQ" elementId="group.nav" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -564,37 +330,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_nrK_k6DOEea8E9ueDCOhNQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_lKDOEea8E9ueDCOhNQ" elementId="history.group">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_laDOEea8E9ueDCOhNQ" elementId="group.application" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_lqDOEea8E9ueDCOhNQ" elementId="backardHistory">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_l6DOEea8E9ueDCOhNQ" elementId="forwardHistory">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_mKDOEea8E9ueDCOhNQ" elementId="pin.group">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_nrK_maDOEea8E9ueDCOhNQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_nrMzgaDOEea8E9ueDCOhNQ"/>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_mqDOEea8E9ueDCOhNQ" elementId="org.eclipse.ui.edit.text.gotoNextAnnotation">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_m6DOEea8E9ueDCOhNQ" elementId="org.eclipse.ui.edit.text.gotoPreviousAnnotation">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_nKDOEea8E9ueDCOhNQ" elementId="org.eclipse.ui.edit.text.gotoLastEditPosition">
-          <tags>Opaque</tags>
-        </children>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_nrK_naDOEea8E9ueDCOhNQ" elementId="com.aptana.editor.js">
-        <tags>Draggable</tags>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_nrK_nqDOEea8E9ueDCOhNQ" elementId="com.aptana.editor.xml.alloy">
-        <tags>Draggable</tags>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_-WWm1KGQEea69eH8iVR9ZQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_nrMzgaDOEea8E9ueDCOhNQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_nrK_n6DOEea8E9ueDCOhNQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -606,12 +342,6 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_nrK_o6DOEea8E9ueDCOhNQ" elementId="org.eclipse.ui.workbench.help">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrK_pKDOEea8E9ueDCOhNQ" elementId="group.help">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_nrLkkKDOEea8E9ueDCOhNQ" elementId="group.application" visible="false">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolControl" xmi:id="_nrLkkaDOEea8E9ueDCOhNQ" elementId="PerspectiveSpacer" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
         <tags>stretch</tags>
@@ -907,7 +637,7 @@
     <bindings xmi:id="_nrLlKaDOEea8E9ueDCOhNQ" keySequence="COMMAND+CTRL+G B" command="_nrMzwKDOEea8E9ueDCOhNQ">
       <tags>platform:cocoa</tags>
     </bindings>
-    <bindings xmi:id="_nrLlKqDOEea8E9ueDCOhNQ" keySequence="COMMAND+CTRL+F" command="_nrM0jaDOEea8E9ueDCOhNQ"/>
+    <bindings xmi:id="_4uUnUaGQEea69eH8iVR9ZQ" keySequence="COMMAND+CTRL+F" command="_nrM0jaDOEea8E9ueDCOhNQ"/>
   </bindingTables>
   <bindingTables xmi:id="_nrLlK6DOEea8E9ueDCOhNQ" elementId="org.eclipse.ui.textEditorScope" bindingContext="_nrLl3KDOEea8E9ueDCOhNQ">
     <bindings xmi:id="_nrLlLKDOEea8E9ueDCOhNQ" keySequence="CTRL+ARROW_DOWN" command="_nrM0haDOEea8E9ueDCOhNQ"/>
@@ -1110,7 +840,7 @@
     <bindings xmi:id="_nrLlu6DOEea8E9ueDCOhNQ" keySequence="COMMAND+SHIFT+." command="_nrMzpKDOEea8E9ueDCOhNQ"/>
   </bindingTables>
   <bindingTables xmi:id="_nrLlvKDOEea8E9ueDCOhNQ" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_nrLl6KDOEea8E9ueDCOhNQ">
-    <bindings xmi:id="_nrLlvaDOEea8E9ueDCOhNQ" keySequence="M1+W" command="_nrM0j6DOEea8E9ueDCOhNQ"/>
+    <bindings xmi:id="_4uVOYKGQEea69eH8iVR9ZQ" keySequence="M1+W" command="_nrM0j6DOEea8E9ueDCOhNQ"/>
   </bindingTables>
   <bindingTables xmi:id="_nrLlvqDOEea8E9ueDCOhNQ" bindingContext="_nrLl76DOEea8E9ueDCOhNQ"/>
   <bindingTables xmi:id="_nrLlv6DOEea8E9ueDCOhNQ" bindingContext="_nrLl8KDOEea8E9ueDCOhNQ"/>
@@ -1352,6 +1082,23 @@
     <tags>View</tags>
     <tags>categoryTag:General</tags>
   </descriptors>
+  <trimContributions xmi:id="_2r10UF9tEeO-yojH_y4TJA" elementId="org.eclipse.ui.ide.application.trimcontribution.QuickAccess" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" toBeRendered="false" parentId="org.eclipse.ui.main.toolbar" positionInParent="last">
+    <children xsi:type="menu:ToolControl" xmi:id="_76uUAF9tEeO-yojH_y4TJA" elementId="Spacer Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
+      <tags>glue</tags>
+      <tags>move_after:PerspectiveSpacer</tags>
+      <tags>SHOW_RESTORE_MENU</tags>
+    </children>
+    <children xsi:type="menu:ToolControl" xmi:id="_8tJPcF9tEeO-yojH_y4TJA" elementId="SearchField" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.quickaccess.SearchField">
+      <tags>move_after:Spacer Glue</tags>
+      <tags>HIDEABLE</tags>
+      <tags>SHOW_RESTORE_MENU</tags>
+    </children>
+    <children xsi:type="menu:ToolControl" xmi:id="_9LgmcF9tEeO-yojH_y4TJA" elementId="Search-PS Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
+      <tags>glue</tags>
+      <tags>move_after:SearchField</tags>
+      <tags>SHOW_RESTORE_MENU</tags>
+    </children>
+  </trimContributions>
   <commands xmi:id="_nrMNmaDOEea8E9ueDCOhNQ" elementId="org.eclipse.ui.edit.findbar.focusFind" commandName="Find Bar Focus Find" category="_nrM00aDOEea8E9ueDCOhNQ"/>
   <commands xmi:id="_nrMNmqDOEea8E9ueDCOhNQ" elementId="org.eclipse.ui.edit.text.select.pageUp" commandName="Select Page Up" description="Select to the top of the page" category="_nrM01KDOEea8E9ueDCOhNQ"/>
   <commands xmi:id="_nrMNm6DOEea8E9ueDCOhNQ" elementId="org.eclipse.ui.edit.findbar.searchInOpenFiles" commandName="Search in Open Files" category="_nrM00aDOEea8E9ueDCOhNQ"/>
