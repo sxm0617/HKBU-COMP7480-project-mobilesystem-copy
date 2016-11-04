@@ -1,0 +1,16 @@
+"Window": {
+	backgroundColor: "#fff"
+}
+
+"#mapView": { 
+    region: {
+        latitude: 22.333, 
+        longitude: 114.113, 
+        latitudeDelta: 0.35, 
+        longitudeDelta: 0.35
+    }
+}
+
+"TableViewRow": {
+	textAlign: 'left'
+}

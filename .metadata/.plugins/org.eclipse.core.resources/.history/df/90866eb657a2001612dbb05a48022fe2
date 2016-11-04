@@ -1,0 +1,30 @@
+"Window": {
+	backgroundColor: "#fff"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	top: 10,
+	bottom: 10,
+	color: "#000",
+	font: {
+		fontSize: 30,
+		fontFamily: 'Helvetica Neue'
+	},
+} 
+
+"#mapView": { 
+    region: {
+        latitude: 22.333, 
+        longitude: 114.113, 
+        latitudeDelta: 0.35, 
+        longitudeDelta: 0.35
+    }
+}
+
+"TableViewRow": {
+	font: {
+		fontSize: 30
+	}
+}

@@ -1,0 +1,41 @@
+"Window": {
+	backgroundColor: "#fff"
+}
+
+"Label": {
+	color: "#000",
+	font: {
+		fontSize: 24,
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+} 
+
+"TableViewRow": {
+	font: {
+		fontSize: 24,
+		fontFamily: 'Helvetica Neue',
+	}
+}
+
+"#mapView": { 
+    region: {
+        latitude: 22.333, 
+        longitude: 114.113, 
+        latitudeDelta: 0.35, 
+        longitudeDelta: 0.35
+    }
+}
+
+"#account": {
+	width: 100,
+	height: 100,
+	left: 0
+}
+
+".houseImage": {
+	height: 200,
+	width: 350,
+	top: 20,
+	bottom: 5,
+}

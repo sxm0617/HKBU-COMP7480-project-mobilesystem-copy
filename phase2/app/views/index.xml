@@ -7,8 +7,9 @@
 			<Window title="Online House Renting System">
 				<TableView dataCollection="house" dataFilter="showHighlight">
 					<TableViewRow layout="vertical" onClick="showHouseDetails" fid="{id}">
-						<ImageView image="{image}" top="20dp" />
-						<Label text="{title}" bottom="20dp" />
+						<ImageView image="{image}" class="houseImage"/>
+						<Label text="{title}" class="houseDescription">
+						</Label>
 					</TableViewRow>		
 				</TableView>
 			</Window>
@@ -28,10 +29,10 @@
 			</Window>
 		</Tab>
 		<Tab title="By Location" icon="Location.png">
-			<Window title="Online House Renting System" >
+			<Window title="Online House Renting System">
 				<TableView dataCollection="estate" dataTransform="setHeader">
-					<TableViewSection headerTitle="{District}" >
-						<TableViewRow title="{Name}" onClick="showHouses"/>
+					<TableViewSection headerTitle="{District}">
+						<TableViewRow title="{Name}" onClick="showHouses" />
 					</TableViewSection>
 				</TableView>
 			</Window>
@@ -51,17 +52,11 @@
 						<Label text="{password}" bottom="20dp" />
 					</TableViewRow> -->		
 					<TableViewRow>
-						<ImageView image="" />
+						<ImageView id="account" image="Account.png" />
 					</TableViewRow>
-					<TableViewRow>
-						<Label text="Login/Logout" />
-					</TableViewRow>
-					<TableViewRow>
-						<Label text="Interested Properties" />
-					</TableViewRow>
-					<TableViewRow>
-						<Label text="About Us" />
-					</TableViewRow>
+					<TableViewRow title="Login/Logout" />
+					<TableViewRow title="Interested Properties" />
+					<TableViewRow title="About Us" />
 				</TableView> 
 			</Window>
 		</Tab>
