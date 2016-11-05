@@ -1,0 +1,16 @@
+
+".container" : {
+  
+}
+
+"Label": {
+	left: 10,
+	editable: false
+}
+
+"ImageView": {
+	height: 200,
+	width: 350,
+	top: 20,
+	bottom: 5,
+}

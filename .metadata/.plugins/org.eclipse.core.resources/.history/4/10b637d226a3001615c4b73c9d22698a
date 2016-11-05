@@ -1,0 +1,25 @@
+
+".container" : {
+  
+}
+
+"Label": {
+	left: 10,
+	editable: false
+}
+
+"ImageView": {
+	height: 200,
+	width: 350,
+	top: 20,
+	bottom: 5,
+}
+
+"#showOnMap": {
+	autoLink: Ti.UI.AUTOLINK_URLS,
+	text: "Show On Map",
+	color: "00f",
+	font: {
+		fontSize: 24,	
+	}
+}

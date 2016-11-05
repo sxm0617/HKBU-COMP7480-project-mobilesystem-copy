@@ -1,0 +1,20 @@
+
+".container" : {
+  
+}
+
+"Label": {
+	top: 5,
+	bottom: 5,
+	font: {
+		fontSize: 24,
+		fontFamily: 'Helvetica Neue',
+	}
+}
+
+"TableViewRow": {
+	font: {
+		fontSize: 24,
+		fontFamily: 'Helvetica Neue',
+	}
+}

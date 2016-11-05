@@ -1,9 +1,0 @@
-<Alloy>
-	<Collection src="house" />
-	<Collection src="estate" />
-	<Window>
-		<Module id="mapView" module="ti.map" method="createView" userLocation="true" 
-			dataCollection="estate" dataTransform="getEstateInfo" onClick="showHouses">
-		</Module>
-	</Window>
-</Alloy>

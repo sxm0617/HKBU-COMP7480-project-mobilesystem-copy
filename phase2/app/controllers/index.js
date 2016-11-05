@@ -27,7 +27,7 @@ function showHouses(e) {
 	var activeTab = $.index.tabs.indexOf($.index.getActiveTab());
 	if (activeTab == 2) {
 		var housesInEstateController = Alloy.createController("housesInEstate", {
-			estate_name: e.row.title
+			estate_name: e.row.title.substring(4)
 		});
 			
 		console.log(e.row.title);	

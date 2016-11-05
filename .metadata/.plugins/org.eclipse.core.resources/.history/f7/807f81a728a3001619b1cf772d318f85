@@ -1,0 +1,15 @@
+"Label": {
+	top: "1dp",
+	bottom: "1dp",
+	font: {
+		fontSize: 24,
+		fontFamily: 'Helvetica Neue',
+	}
+}
+
+"TableViewRow": {
+	font: {
+		fontSize: 24,
+		fontFamily: 'Helvetica Neue',
+	}
+}

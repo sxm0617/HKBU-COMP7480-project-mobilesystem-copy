@@ -7,3 +7,6 @@ function showHouse(collection) {
 	return collection.where({id: parseInt(id)});
 }
 
+function showOnMap() {
+	console.log("Show On Map");
+}

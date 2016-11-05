@@ -1,0 +1,6 @@
+"TableViewRow": {
+	font: {
+		fontSize: 10,
+		fontFamily: 'Helvetica Neue',
+	}
+}

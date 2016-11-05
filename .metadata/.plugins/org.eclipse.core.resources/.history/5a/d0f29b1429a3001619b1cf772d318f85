@@ -1,0 +1,11 @@
+"TableViewRow": {
+	font: {
+		fontSize: 10,
+		fontFamily: 'Helvetica Neue',
+	}
+}
+
+"Label": {
+	top: 1,
+	bottom:1
+}
