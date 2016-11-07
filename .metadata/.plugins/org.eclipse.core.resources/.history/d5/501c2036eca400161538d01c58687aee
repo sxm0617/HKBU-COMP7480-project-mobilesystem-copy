@@ -22,13 +22,5 @@ function userLog(e) {
 }
 
 function interest() {
-	if (user == "") {
-		var loginController = Alloy.createController("login");
-		Alloy.Globals.index.activeTab.open(loginController.getView());
-	} else {
-		var interestController = Alloy.createController("interest", {
-			username: user
-		});
-		Alloy.Globals.index.activeTab.open(interestController.getView());
-	}
+	
 }

@@ -1,0 +1,6 @@
+var args = $.args;
+
+Alloy.Collections.user.fetch();
+Alloy.Collections.house.fetch();
+
+

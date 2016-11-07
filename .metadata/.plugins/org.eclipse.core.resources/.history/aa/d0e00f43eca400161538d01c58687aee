@@ -26,9 +26,7 @@ function interest() {
 		var loginController = Alloy.createController("login");
 		Alloy.Globals.index.activeTab.open(loginController.getView());
 	} else {
-		var interestController = Alloy.createController("interest", {
-			username: user
-		});
-		Alloy.Globals.index.activeTab.open(interestController.getView());
+		var interestController = Alloy.createController("login");
+		Alloy.Globals.index.activeTab.open(loginController.getView());
 	}
 }

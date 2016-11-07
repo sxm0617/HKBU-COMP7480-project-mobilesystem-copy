@@ -1,0 +1,17 @@
+var args = $.args;
+
+Alloy.Collections.user.fetch();
+Alloy.Collections.house.fetch();
+
+function interestHouse() {
+	
+}
+
+function showHouseDetails(e) {
+	var houseDetailsController = Alloy.createController("houseDetails", {
+		house_id: e.row.fid	
+	});
+	
+	Alloy.Globals.index.setActiveTab(0);
+	Alloy.Globals.index.activeTab.open(houseDetailsController.getView());
+}

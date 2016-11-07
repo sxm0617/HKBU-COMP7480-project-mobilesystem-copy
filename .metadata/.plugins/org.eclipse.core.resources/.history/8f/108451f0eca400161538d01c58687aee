@@ -1,0 +1,8 @@
+<Alloy>
+	<Collection src="house" />
+	<Window>
+		<TableView dataCollection="house" dataFilter="CFRHouse">
+			<TableViewRow title="{title}" onClick="showHouseDetails" fid="{id}" />  
+		</TableView>
+	</Window>
+</Alloy>
