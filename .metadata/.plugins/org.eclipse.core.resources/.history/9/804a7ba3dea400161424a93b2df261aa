@@ -1,0 +1,9 @@
+<Alloy>
+	<Window>
+		<TableView>
+			<TableViewRow layout="horizontal">
+				<Label text=>
+			</TableViewRow>
+		</TableView>
+	</Window>
+</Alloy>

@@ -1,9 +1,0 @@
-
-".container" : {
-  
-}
-
-"TextField": {
-	left: 10,
-	editable: false
-}

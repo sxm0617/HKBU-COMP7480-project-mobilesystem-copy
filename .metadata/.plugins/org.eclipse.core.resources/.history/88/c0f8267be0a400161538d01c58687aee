@@ -1,0 +1,32 @@
+
+".container" : {
+	
+}
+
+"Label": {
+	top: 10,
+	bottom: 10,
+	left: 15,
+	font: {
+		fontSize: 24,
+		fontFamily: 'Helvetica Neue',
+	}
+}
+
+"TextField": {
+	top: 10,
+	bottom: 10,
+	left: 10,	
+	font: {
+		fontSize: 24,
+		fontFamily: 'Helvetica Neue',
+	},
+	editable: true
+}
+
+"Button": {	
+	font: {
+		fontSize: 24,
+		fontFamily: 'Helvetica Neue',
+	},
+}

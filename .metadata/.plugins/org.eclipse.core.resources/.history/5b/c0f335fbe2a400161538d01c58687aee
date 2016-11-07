@@ -1,0 +1,11 @@
+var args = $.args;
+
+Alloy.Collections.user.fetch();
+
+function login(collection) {
+	var userCollection  = collection.filter(function(user) {
+		return user.get("username") == $.username && user.get("password") == $.password;
+	});
+	console.log(userCollection.length);
+	return userCollection;
+}

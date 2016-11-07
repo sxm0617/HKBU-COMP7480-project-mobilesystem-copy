@@ -6,7 +6,7 @@ exports.definition = {
 			"password": "TEXT"
 	    },
 	    
-	    "URL": "http://158.182.111.19:1337/user",
+	    "URL": "http://localhost:1337/user",
 	    
 	    
 	    "debug": 1,

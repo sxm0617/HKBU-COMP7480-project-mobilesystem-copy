@@ -96,3 +96,25 @@ function setHeader(house) {
 	}
 	return model;
 }
+
+var user = "";
+
+function userChk() {
+	if (user == "") {
+		$.welcome.text = "";
+		$.logIo.title = "Login";
+	} else {
+		$.welcome.text = "Hi, " + user;
+		$.logIo.title = "Logout";
+	}
+}
+
+function userLog(e) {
+	if (e.row.title == "Login") {
+		var loginController = Alloy.createController("login");
+		$.index.activeTab.open(loginController.getView());
+	} else {
+		user = "";
+		userChk();	
+	}
+}

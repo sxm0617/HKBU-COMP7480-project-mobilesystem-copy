@@ -1,0 +1,16 @@
+<Alloy>
+	<Collection src="user" />
+	<Window>
+		<TableView>
+			<TableViewRow title="username: " layout="horizontal">
+				<TextField id="username" />
+			</TableViewRow>
+			<TableViewRow title="password: " layout="horizontal">
+				<TextField id="password" />
+			</TableViewRow>
+			<TableViewRow>
+				<Button>Login</Button>
+			</TableViewRow>
+		</TableView>
+	</Window>
+</Alloy>

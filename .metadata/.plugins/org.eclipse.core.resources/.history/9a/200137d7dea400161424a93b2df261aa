@@ -1,0 +1,15 @@
+<Alloy>
+	<Collection src="user" />
+	<Window>
+		<TableView>
+			<TableViewRow layout="horizontal">
+				<Label text="username: " />
+				<TextField id="username" />
+			</TableViewRow>
+			<TableViewRow layout="horizontal">
+				<Label text="password: " />
+				<TextField id="password" />
+			</TableViewRow>
+		</TableView>
+	</Window>
+</Alloy>

@@ -1,0 +1,13 @@
+<Alloy>
+	<Window onOpen="getUsername">
+		<TableView>	
+			<TableViewRow layout="horizontal">
+				<ImageView id="account" image="Account.png" />
+				<Label id="welcome"/>
+			</TableViewRow>
+			<TableViewRow id="logIo" title="Logout" onClick="logOut" />
+			<TableViewRow title="Interested Properties" />
+			<TableViewRow title="About Us" />
+		</TableView>
+	</Window>
+</Alloy>

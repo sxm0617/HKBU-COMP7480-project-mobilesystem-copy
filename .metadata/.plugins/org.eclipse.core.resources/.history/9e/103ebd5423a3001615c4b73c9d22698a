@@ -1,9 +1,0 @@
-
-".container" : {
-  
-}
-
-"Label": {
-	left: 10,
-	editable: false
-}

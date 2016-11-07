@@ -1,0 +1,18 @@
+var args = arguments[0] || {};
+var user = args.username;
+
+function getUsername() {
+	if (user == "") {
+		var loginController = Alloy.createController("login");
+		$.index.activeTab.open(loginController.getView());
+	} else {
+		$.welcome.text = "Hi, " + user;
+		$.logIo.title = "Logout";
+	}
+}
+
+function logOut(e) {
+	user = "";
+	var loginController = Alloy.createController("login");
+	$.index.activeTab.open(loginController.getView());		
+}

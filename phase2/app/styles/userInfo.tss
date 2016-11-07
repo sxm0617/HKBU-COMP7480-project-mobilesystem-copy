@@ -1,0 +1,17 @@
+
+".container" : {
+  
+}
+
+"TableViewRow": {
+	font: {
+		fontSize: 24,
+		fontFamily: 'Helvetica Neue',
+	}
+}
+
+"#account": {
+	width: 100,
+	height: 100,
+	left: 0
+}

@@ -13,7 +13,7 @@ exports.definition = {
 	        "highlight": "TEXT"
 	    },
 	    
-	    "URL": "http://158.182.111.19:1337/house",
+	    "URL": "http://localhost:1337/house",
 	    
 	    
 	    "debug": 1,

@@ -1,0 +1,7 @@
+var args = $.args;
+
+Alloy.Collections.user.fetch();
+
+function login() {
+	
+}
