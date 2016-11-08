@@ -1,0 +1,20 @@
+var args = arguments[0] || {};
+var id = args.house_id || {};
+var estate_name = args.estate_name;
+
+Alloy.Collections.house.fetch();
+
+function showHouse(collection) {
+	return collection.where({id: parseInt(id)});
+}
+
+function showOnMap(e) {
+	console.log(estate_name;
+	var estateMapController = Alloy.createController("estateMap", {
+		estate: estate_name
+	});
+	
+	Alloy.Globals.index.setActiveTab(3);
+	Alloy.Globals.index.open(estateMapController);
+	console.log("Show On Map");
+}

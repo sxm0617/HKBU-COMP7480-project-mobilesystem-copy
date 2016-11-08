@@ -2,7 +2,7 @@
 	<Collection src="house" />
 	<Window>
 		<TableView dataCollection="house" dataFilter="showHouse">
-			<TableViewRow layout="vertical" >
+			<TableViewRow layout="vertical">
 				<ImageView image="{image}" top="20dp" />
 				<Label text="Description:  {title}"/>  
 				<Label text="District:  {district}"/> 
@@ -11,7 +11,7 @@
 				<Label text="Lift:  {lift}"/> 
 				<Label text="Guard:  {guard}"/> 
 				<Label text="Price:  {price}"/>
-				<Label id="showOnMap" onClick="showOnMap"/>  
+				<Label id="showOnMap" did="{district}" onClick="showOnMap" />  
 			</TableViewRow>
 		</TableView>
 	</Window>

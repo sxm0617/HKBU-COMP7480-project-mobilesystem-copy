@@ -1,0 +1,21 @@
+var args = arguments[0] || {};
+var estate_name = args.estate_name;
+
+Alloy.Collections.house.fetch();
+
+function showHouse(collection) {
+	return collection.filter(function(house) {
+		return house.get("district") == estate_name;
+	});
+}
+
+function showHouseDetails(e) {
+	var houseDetailsController = Alloy.createController("houseDetails", {
+		house_id: e.row.fid,
+		estate_name: estate_name
+	});
+	
+	Alloy.Globals.index.setActiveTab(0);
+	Alloy.Globals.index.activeTab.open(houseDetailsController.getView());
+}
+

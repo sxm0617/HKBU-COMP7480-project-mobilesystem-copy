@@ -11,7 +11,7 @@ function showHouse(collection) {
 
 function showHouseDetails(e) {
 	var houseDetailsController = Alloy.createController("houseDetails", {
-		house_id: e.row.fid	
+		house_id: e.row.fid
 	});
 	
 	Alloy.Globals.index.setActiveTab(0);

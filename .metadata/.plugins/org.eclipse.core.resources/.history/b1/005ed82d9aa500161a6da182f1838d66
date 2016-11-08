@@ -1,0 +1,46 @@
+var args = arguments[0] || {};
+var estateName = args.estate || {};
+console.log(estateName);
+
+Alloy.Collections.estate.fetch();
+
+function showSelectedEstate(collection) {
+	console.log(estateName);
+	return collection.filter(function(estate) {
+		return estate.get("Name") == estateName;
+	});
+}
+
+function getEstateInfo(model) {
+	var transform = model.toJSON();
+	
+	transform.title = transform.Name;
+	transform.subtitle = transform.ChineseName;
+	transform.id = transform.id;
+	transform.rightButton = Titanium.UI.iPhone.SystemButton.DISCLOSURE;
+		
+	return transform;
+}
+
+function showHouses(e) {
+	var activeTab = $.index.tabs.indexOf($.index.getActiveTab());
+	if (activeTab == 2) {
+		var housesInEstateController = Alloy.createController("housesInEstate", {
+			estate_name: e.row.title.substring(4)
+		});
+			
+		console.log(e.row.title);	
+		Alloy.Globals.index.setActiveTab(3);
+		Alloy.Globals.index.activeTab.open(housesInEstateController.getView());
+	}
+	
+	if (activeTab == 3) {
+		if (e.clicksource == "rightButton") {
+			var housesInEstateController = Alloy.createController("housesInEstate", {
+				estate_name: e.annotation.Name
+			});
+			
+			Alloy.Globals.index.activeTab.open(housesInEstateController.getView());
+		}
+	}
+}

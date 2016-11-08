@@ -1,5 +1,5 @@
-var args = arguments[0] || {};
-var id = args.house_id || {};
+var args2 = $.args;
+var id = args2.house_id || {};
 
 Alloy.Collections.house.fetch();
 
@@ -7,6 +7,12 @@ function showHouse(collection) {
 	return collection.where({id: parseInt(id)});
 }
 
-function showOnMap() {
-	console.log("Show On Map");
+function showOnMap(e) {
+
+	var estateMapController = Alloy.createController("estateMap", {
+		estate: e.source.did
+	});
+	
+	Alloy.Globals.index.setActiveTab(3);
+	Alloy.Globals.index.activeTab.open(estateMapController.getView());
 }

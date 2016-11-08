@@ -31,6 +31,7 @@ function showHouses(e) {
 		});
 			
 		console.log(e.row.title);	
+		$.index.setActiveTab(3);
 		$.index.activeTab.open(housesInEstateController.getView());
 	}
 	
