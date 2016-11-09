@@ -1,0 +1,31 @@
+var args = $.args;
+
+Alloy.Collections.user.fetch();
+
+function login() {
+	
+	var xhr = Ti.Network.createHTTPClient();    
+    xhr.open("POST", "http://158.182.109.38:1337/login");
+    xhr.onload = function(e) {
+    	if (this.responseText == "No such user" || this.responseText == "Wrong password") {
+        	alert(this.responseText);
+       }
+    };
+    
+    xhr.send({
+        "User[name]": $.username.value,
+        "User[password]": $.password.value
+    });
+     
+	// var userCollection  = Alloy.Collections.user.filter(function(user) {
+		// return user.get("username") == $.username.value && user.get("password") == $.password.value;
+	// });
+	// if (userCollection.length > 0) {
+		// var userInfoController = Alloy.createController("userInfo", {
+			// username: $.username.value
+		// });		
+		// Alloy.Globals.index.activeTab.open(userInfoController.getView());
+	// } else {
+		// alert("Wrong Username or Password");
+	// }
+}

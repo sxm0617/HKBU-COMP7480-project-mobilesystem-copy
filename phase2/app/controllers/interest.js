@@ -4,11 +4,12 @@ var username = args.username;
 Alloy.Collections.interest.fetch();
 Alloy.Collections.house.fetch();
 
-function interestHouse(collection) {
-	return collection.filter(function(house) {
-		
-	});
-}
+// function interestHouse(collection) {
+	// return collection;
+	// // return collection.filter(function(house) {
+		// // return house.
+	// // })
+// }
 
 function showHouseDetails(e) {
 	var houseDetailsController = Alloy.createController("houseDetails", {

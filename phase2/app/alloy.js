@@ -47,4 +47,5 @@ ACS.Users.login({
 })();
 
 Alloy.Globals.Map = require("ti.map");
+Alloy.Globals.loginUser = "";
 

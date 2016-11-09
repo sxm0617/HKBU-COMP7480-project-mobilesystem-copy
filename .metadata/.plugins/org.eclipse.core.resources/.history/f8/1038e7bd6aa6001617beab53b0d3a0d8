@@ -1,0 +1,35 @@
+
+".container" : {
+	
+}
+
+"Label": {
+	height: 50,
+	left: 15,
+	font: {
+		fontSize: 24,
+		fontFamily: 'Helvetica Neue',
+	}
+}
+
+"TextField": {
+	height: 50,
+	left: 10,	
+	font: {
+		fontSize: 24,
+		fontFamily: 'Helvetica Neue',
+	},
+	width: 200,
+	editable: true
+}
+
+"Button": {	
+	font: {
+		fontSize: 24,
+		fontFamily: 'Helvetica Neue',
+	},
+}
+
+"#password": {
+	
+}

@@ -1,0 +1,29 @@
+var args = $.args;
+
+Alloy.Collections.user.fetch();
+
+function login() {
+	
+	var xhr = Ti.Network.createHTTPClient();
+    xhr.onload = function(e) {
+        //handle response, which at minimum will be an HTTP status code
+        var json = JSON.parse(this.responseText);
+        alert(json[json.length - 1].name + " " + json.length);
+    };
+    xhr.open('POST','http://thirdsail.herokuapp.com/person/create');
+    xhr.send({
+        "Person[name]": $.username.value
+    });
+     
+	// var userCollection  = Alloy.Collections.user.filter(function(user) {
+		// return user.get("username") == $.username.value && user.get("password") == $.password.value;
+	// });
+	// if (userCollection.length > 0) {
+		// var userInfoController = Alloy.createController("userInfo", {
+			// username: $.username.value
+		// });		
+		// Alloy.Globals.index.activeTab.open(userInfoController.getView());
+	// } else {
+		// alert("Wrong Username or Password");
+	// }
+}

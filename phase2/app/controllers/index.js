@@ -98,24 +98,34 @@ function setHeader(house) {
 	return model;
 }
 
-var user = "";
-
 function userChk() {
-	if (user == "") {
+	console.log("Check current user: " + Alloy.Globals.loginUser);
+	if (Alloy.Globals.loginUser == "") {
 		$.welcome.text = "";
 		$.logIo.title = "Login";
 	} else {
-		$.welcome.text = "Hi, " + user;
+		$.welcome.text = "Hi, " + Alloy.Globals.loginUser;
 		$.logIo.title = "Logout";
 	}
 }
 
-function userLog(e) {
+function userLog(e) {	
 	if (e.row.title == "Login") {
 		var loginController = Alloy.createController("login");
-		$.index.activeTab.open(loginController.getView());
+		Alloy.Globals.index.activeTab.open(loginController.getView());
 	} else {
-		user = "";
-		userChk();	
+		var xhr = Ti.Network.createHTTPClient();    
+	    xhr.open("POST", "http://158.182.109.38:1337/user/logout");
+	    xhr.onload = function(e) {
+			Alloy.Globals.loginUser = "";	
+	    };
+	    
+	    xhr.send({
+	        "username": ""
+	    });
+	    console.log("After clicking logout button: " + Alloy.Globals.loginUser);
+	    $.welcome.text = "";
+		$.logIo.title = "Logout";
+	    userChk();
 	}
 }

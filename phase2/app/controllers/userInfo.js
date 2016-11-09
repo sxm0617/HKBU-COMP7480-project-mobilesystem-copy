@@ -1,33 +1,37 @@
 var args = arguments[0] || {};
-var user = args.username;
 
 function userChk() {
-	if (user == "") {
+	console.log("Check current user: " + Alloy.Globals.loginUser);
+	if (Alloy.Globals.loginUser == "") {
 		$.welcome.text = "";
 		$.logIo.title = "Login";
 	} else {
-		$.welcome.text = "Hi, " + user;
+		$.welcome.text = "Hi, " + Alloy.Globals.loginUser;
 		$.logIo.title = "Logout";
 	}
 }
 
-function userLog(e) {
+function userLog(e) {	
 	if (e.row.title == "Login") {
 		var loginController = Alloy.createController("login");
 		Alloy.Globals.index.activeTab.open(loginController.getView());
 	} else {
-		user = "";
-		userChk();
+	    Alloy.Globals.loginUser = "";
+	    console.log("After clicking logout button: " + Alloy.Globals.loginUser);
+	    $.welcome.text = "";
+		$.logIo.title = "Logout";
+	    userChk();
 	}
 }
 
 function interest() {
-	if (user == "") {
+	console.log(Alloy.Globals.loginUser);
+	if (Alloy.Globals.loginUser == "") {
 		var loginController = Alloy.createController("login");
 		Alloy.Globals.index.activeTab.open(loginController.getView());
 	} else {
 		var interestController = Alloy.createController("interest", {
-			username: user
+			username: Alloy.Globals.loginUser
 		});
 		Alloy.Globals.index.activeTab.open(interestController.getView());
 	}

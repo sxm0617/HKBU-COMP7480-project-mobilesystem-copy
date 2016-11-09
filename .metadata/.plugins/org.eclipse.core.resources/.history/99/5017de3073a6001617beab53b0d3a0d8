@@ -1,0 +1,46 @@
+var args = arguments[0] || {};
+
+function userChk() {
+	console.log(Alloy.Globals.loginUser);
+	if (Alloy.Globals.loginUser == "") {
+		$.welcome.text = "";
+		$.logIo.title = "Login";
+	} else {
+		$.welcome.text = "Hi, " + Alloy.Globals.loginUser;
+		$.logIo.title = "Logout";
+	}
+}
+
+function userLog(e) {	
+	if (e.row.title == "Login") {
+		var loginController = Alloy.createController("login");
+		Alloy.Globals.index.activeTab.open(loginController.getView());
+	} else {
+		var xhr = Ti.Network.createHTTPClient();    
+	    xhr.open("POST", "http://158.182.109.38:1337/user/logout");
+	    xhr.onload = function(e) {
+			Alloy.Globals.loginUser = "";	
+	    };
+	    
+	    xhr.send({
+	        "username": ""
+	    });
+	    console.log(Alloy.Globals.loginUser);
+	    $.welcome.text = "";
+		$.logIo.title = "Logout";
+	    userChk();
+	}
+}
+
+function interest() {
+	console.log(Alloy.Globals.loginUser);
+	if (Alloy.Globals.loginUser == "") {
+		var loginController = Alloy.createController("login");
+		Alloy.Globals.index.activeTab.open(loginController.getView());
+	} else {
+		var interestController = Alloy.createController("interest", {
+			username: Alloy.Globals.loginUser
+		});
+		Alloy.Globals.index.activeTab.open(interestController.getView());
+	}
+}
