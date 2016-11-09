@@ -15,10 +15,7 @@
 	bottom: 5,
 }
 
-"#showOnMap": {
-	top: 10,
-	color: "blue",
-	text: "Show On Map",
+"Button": {
 	font: {
 		fontSize: 24,	
 	}

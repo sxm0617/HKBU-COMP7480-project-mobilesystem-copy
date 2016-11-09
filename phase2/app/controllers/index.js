@@ -99,7 +99,6 @@ function setHeader(house) {
 }
 
 function userChk() {
-	console.log("Check current user: " + Alloy.Globals.loginUser);
 	if (Alloy.Globals.loginUser == "") {
 		$.welcome.text = "";
 		$.logIo.title = "Login";
@@ -114,18 +113,7 @@ function userLog(e) {
 		var loginController = Alloy.createController("login");
 		Alloy.Globals.index.activeTab.open(loginController.getView());
 	} else {
-		var xhr = Ti.Network.createHTTPClient();    
-	    xhr.open("POST", "http://158.182.109.38:1337/user/logout");
-	    xhr.onload = function(e) {
-			Alloy.Globals.loginUser = "";	
-	    };
-	    
-	    xhr.send({
-	        "username": ""
-	    });
-	    console.log("After clicking logout button: " + Alloy.Globals.loginUser);
-	    $.welcome.text = "";
-		$.logIo.title = "Logout";
+	    Alloy.Globals.loginUser = "";
 	    userChk();
 	}
 }

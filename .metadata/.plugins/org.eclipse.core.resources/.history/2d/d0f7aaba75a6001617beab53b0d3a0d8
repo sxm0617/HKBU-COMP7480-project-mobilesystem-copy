@@ -1,0 +1,21 @@
+<Alloy>	
+	<Collection src="house" />
+	<Window>	
+		<Button right="10dp">Declare interest</Button>	
+		<TableView dataCollection="house" dataFilter="showHouse">
+			
+			<TableViewRow layout="vertical">
+				<ImageView image="{image}" top="20dp" />
+				<Label text="Description:  {title}"/>  
+				<Label text="District:  {district}"/> 
+				<Label text="Area:  {area}"/> 
+				<Label text="Bedroom:  {bedroom}"/> 
+				<Label text="Lift:  {lift}"/> 
+				<Label text="Guard:  {guard}"/> 
+				<Label text="Price:  {price}"/>
+				<Button left="10dp" did="{district}" onClick="showOnMap">Show On Map</Button>  
+				<Button right="10dp">Declare interest</Button>
+			</TableViewRow>
+		</TableView>
+	</Window>
+</Alloy>
