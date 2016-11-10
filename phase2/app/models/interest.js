@@ -25,7 +25,9 @@ exports.definition = {
 			
 			"addModifedToUrl": true,
         	"lastModifiedColumn": "modified"
-		}
+		},
+		
+		 "deleteAllOnFetch": true
 	},
 	extendModel: function(Model) {
 		_.extend(Model.prototype, {
