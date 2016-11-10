@@ -1,6 +1,6 @@
 <Alloy>
 	<Collection src="estate" />
-	<Window title="111">
+	<Window>
 		<Module id="mapView2" module="ti.map" method="createView" userLocation="true" 
 			dataCollection="estate" dataFilter="showSelectedEstate" dataTransform="getEstateInfo" onClick="showHouses">
 		</Module>

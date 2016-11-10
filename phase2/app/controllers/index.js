@@ -99,8 +99,13 @@ function setHeader(house) {
 }
 
 function userChk() {
-	var userInfoController = Alloy.createController("userInfo");
-	Alloy.Globals.index.activeTab.open(userInfoController.getView());
+	if (Alloy.Globals.loginUser == "") {
+		$.welcome.text = "";
+		$.logIo.title = "Login";
+	} else {
+		var userInfoController = Alloy.createController("userInfo");
+		Alloy.Globals.index.activeTab.open(userInfoController.getView());
+	}	
 }
 
 function userLog(e) {	
@@ -110,5 +115,17 @@ function userLog(e) {
 	} else {
 	    Alloy.Globals.loginUser = "";
 	    userChk();
+	}
+}
+
+function interest() {
+	if (Alloy.Globals.loginUser == "") {
+		var loginController = Alloy.createController("login");
+		Alloy.Globals.index.activeTab.open(loginController.getView());
+	} else {
+		var interestController = Alloy.createController("interest", {
+			username: Alloy.Globals.loginUser
+		});
+		Alloy.Globals.index.activeTab.open(interestController.getView());
 	}
 }

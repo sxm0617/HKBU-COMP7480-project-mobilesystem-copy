@@ -52,7 +52,7 @@
 						<Label id="welcome" />
 					</TableViewRow>
 					<TableViewRow id="logIo" onClick="userLog" />
-					<TableViewRow title="Interested Properties" />
+					<TableViewRow title="Interested Properties" onClick="interest" />
 					<TableViewRow title="About Us" />
 				</TableView> 
 			</Window>
