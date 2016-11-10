@@ -1,0 +1,31 @@
+var args2 = $.args;
+var id = args2.house_id || {};
+
+Alloy.Collections.house.fetch();
+
+function ADInterest() {
+	var xhr = Ti.Network.createHTTPClient();    
+    xhr.open("POST", "http://158.182.109.38:1337/user/interest");
+    xhr.onload = function(e) {
+    	
+    };
+    
+    xhr.send({
+        "username": Alloy.Globals.userLogin,
+        "password": $.password.value
+    });
+}
+
+function showHouse(collection) {
+	return collection.where({id: parseInt(id)});
+}
+
+function showOnMap(e) {
+
+	var estateMapController = Alloy.createController("estateMap", {
+		estate: e.source.did
+	});
+	
+	Alloy.Globals.index.setActiveTab(3);
+	Alloy.Globals.index.activeTab.open(estateMapController.getView());
+}

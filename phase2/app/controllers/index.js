@@ -99,13 +99,8 @@ function setHeader(house) {
 }
 
 function userChk() {
-	if (Alloy.Globals.loginUser == "") {
-		$.welcome.text = "";
-		$.logIo.title = "Login";
-	} else {
-		$.welcome.text = "Hi, " + Alloy.Globals.loginUser;
-		$.logIo.title = "Logout";
-	}
+	var userInfoController = Alloy.createController("userInfo");
+	Alloy.Globals.index.activeTab.open(userInfoController.getView());
 }
 
 function userLog(e) {	

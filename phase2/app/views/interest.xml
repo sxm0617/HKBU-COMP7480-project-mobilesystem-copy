@@ -2,7 +2,7 @@
 	<Collection src="interest" />
 	<Collection src="house" />
 	<Window>
-		<TableView dataCollection="interest">
+		<TableView dataCollection="interest" dataFilter="interestHouse">
 			<TableViewRow title="{title}" onClick="showHouseDetails" fid="{id}" />  
 		</TableView>
 	</Window>
