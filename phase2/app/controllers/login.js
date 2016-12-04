@@ -4,7 +4,7 @@ Alloy.Collections.user.fetch();
 
 function login() {	
 	var xhr = Ti.Network.createHTTPClient();    
-    xhr.open("POST", "http://158.182.109.38:1337/user/login");
+    xhr.open("POST", "http://158.182.111.118:1337/user/login");
     xhr.onload = function(e) {
     	if (this.responseText == "No such user" || this.responseText == "Wrong password") {
         	alert(this.responseText);

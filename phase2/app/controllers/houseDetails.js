@@ -18,14 +18,14 @@ function ADInterest() {
 				return user.get("username") == Alloy.Globals.loginUser;
 			});
 			var xhr = Ti.Network.createHTTPClient();    
-		    xhr.open("POST", "http://158.182.109.38:1337/house/interestedBy/" + house_id + "?userId=" + user_id);
+		    xhr.open("POST", "http://158.182.111.118:1337/house/interestedBy/" + house_id + "?userId=" + user_id);
 		    xhr.onload = function(e) {
 		    	alert(this.responseText);
 		    };
 		    xhr.send();
 	   } else {
 			var xhr = Ti.Network.createHTTPClient();    
-		    xhr.open("POST", "http://158.182.109.38:1337/house/uninterest/" + house_id);
+		    xhr.open("POST", "http://158.182.111.118:1337/house/uninterest/" + house_id);
 		    xhr.onload = function(e) {
 		    	alert(this.responseText);
 		    };
